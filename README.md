@@ -1,5 +1,5 @@
 # 🔐 Pipeline de Auditoría de Seguridad con IA
-Script automatizado que realiza auditorías de seguridad en servidores Linux mediante SSH, analiza los hallazgos con Gemini 3.5 Flash y genera un reporte profesional en PDF.
+Script automatizado que realiza auditorías de seguridad en servidores Linux mediante SSH, analiza los hallazgos con Gemini 2.5 Flash y genera un reporte profesional en PDF.
 ```mermaid
 flowchart TB
     A["🖥️ COMPUTADORA LOCAL<br/><b>Python Script</b>"]
