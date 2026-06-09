@@ -6,7 +6,7 @@ Este script realiza una auditoría automática de seguridad en un servidor Linux
 accesible vía SSH. Extrae información del sistema (usuarios, puertos abiertos),
 la analiza con IA (Gemini) y genera un reporte profesional en PDF y Markdown.
 
-Autor: Sistema de Auditoría Automatizada
+Autor: 175624
 Versión: 1.0
 Requisitos: Python 3.8+, conexión SSH al servidor, API Key de Gemini
 ================================================================================
