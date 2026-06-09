@@ -2,4 +2,7 @@
 *.pdf
 *.md
 !README.md
+!Ejemplo Recomendaciones Aplicadas.pdf
+!Ejemplo Servidor Base.pdf
+!Ejemplo Servidor Bastionado.pdf
 __pycache__/
