@@ -67,12 +67,22 @@ pip install -r requirements.txt
 ## Configuración
 Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
 ```env
-GEMINI_API_KEY=tu_api_key_de_gemini
+# ============================================================
+#  AUDITORÍA DE SEGURIDAD - Variables de entorno
+#  Copia este archivo como .env y rellena los valores reales.
+#  NUNCA subas el .env a control de versiones.
+# ============================================================
+
+# --- Conexión SSH al servidor a auditar ---
 SSH_HOST=192.168.1.100
-SSH_USER=tu_usuario
-SSH_KEY_PATH=/ruta/a/tu/llave_ed25519
-# Opcional: ruta personalizada al known_hosts (por defecto usa ~/.ssh/known_hosts)
-# SSH_KNOWN_HOSTS_PATH=/ruta/personalizada/known_hosts
+SSH_USER=usuario_autorizado
+SSH_KEY_PATH=/ruta/a/tu/llave/id_ed25519
+
+# --- Known hosts (opcional, por defecto usa ~/.ssh/known_hosts) ---
+# SSH_KNOWN_HOSTS_PATH=/ruta/personalizada/.ssh/known_hosts
+
+# --- API de Gemini ---
+GEMINI_API_KEY=AIzaSy_TU_API_KEY_AQUI
 ```
 ### Registrar el servidor en known_hosts
 Si aún no has conectado al servidor manualmente, registra su huella primero:
